@@ -23,7 +23,6 @@ nav{
 .merch-banner-text{
   font-weight: 900;
   color: #252525;
-  line-height: 49px;
   letter-spacing: 10px;
   text-align: center;
 }
@@ -31,8 +30,8 @@ nav{
 .merch-banner-subtext{
   font-weight: 900;
   color: #252525;
-  line-height: 20px;
-  letter-spacing: 10px;
+  line-height: 18px;
+  letter-spacing: 3px;
   text-align: center;
 }
 
@@ -89,7 +88,6 @@ width: 15%;
 }
 
   .title-section{
-    height: 5rem;
     width: 80%;
     margin: auto;
     display: flex;
@@ -125,15 +123,13 @@ width: 15%;
 
 
   .img-carousel {
-
     width:  400px;
     height: 400px;
     object-fit: cover;
   }
   
   .carousel-fan{
-    width: 45vh;
-    height: auto;
+    width: 40vh;
   }
 
   .container-services{
@@ -143,6 +139,10 @@ width: 15%;
   
   }
  
+  .thumbs-wrapper{
+    display: none !important;
+  }
+
   .thumb{
     display: none !important;
   }
@@ -172,6 +172,12 @@ width: 15%;
     }
 
 
+    .bg-bio-publico{
+      background-image: url("../src/bg-home-public.jpeg");
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
 @media(max-width: 480px) {
 

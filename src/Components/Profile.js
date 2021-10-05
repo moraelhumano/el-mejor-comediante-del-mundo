@@ -17,11 +17,11 @@ class Profile extends Component{
     render() {
         return (
         <>
-        <section className="pt-4 mt-12">
-            <Zoom>
-                <section className="max-w-5xl bg-white rounded-2xl py-10 mx-auto container-services ">
-                    <section className="flex justify-center px-6 flex-col md:flex-row text-center md:text-left">
-                        <div className="sm:w-1/2  sm-text-center flex flex-col justify-center">
+        <section className="mt-12">
+                <section className="max-w-4xl bg-white rounded-2xl p-6 mx-auto container-services ">
+                    <section className="flex justify-center flex-col md:flex-row text-center md:text-left">
+                    <Bounce left>
+                        <div className="sm:w-1/2 p-2 sm-text-center flex flex-col justify-center">
                             <h3 className="text-5xl text-gray-600 font-bold leading-none">
                                 ¡Místico!
                             </h3>
@@ -30,13 +30,15 @@ class Profile extends Component{
                             Ha colaborado en diversas ocaciones en <b>Comedy Central</b> y ademásde
                             contar con <b>2 especiales en Netflix</b>.
                             </p>
-                            <ul className="text-lg md:text-2xl text-gray-600 mt-4">
+                            <ul className="text-lg md:text-2xl text-gray-600 mt-0 md:mt-4">
                                 <a href="https://www.netflix.com/mx/title/80183198" target="_blank"><b><li className="text-lg text-gray-600 underline mt-4">Alex Fernandez: El Especial</li></b></a>
                                 <a href="https://www.netflix.com/mx/title/81121981" target="_blank"><b><li className="text-lg text-gray-600 underline">Alex Fernandez: El Mejor comediante del mundo</li></b></a>
                             </ul>
                         </div>
+                        </Bounce>
+                        <Bounce right>
                         <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-4 md:mt-0">
-                        <Carousel className="carousel-fan h-full" interval={3000} autoPlay swipeable dynamicHeight infiniteLoop width  >
+                        <Carousel className="carousel-fan none" interval={3000} autoPlay swipeable dynamicHeight infiniteLoop width  >
                             <div className="flex">
                                 <img className="img-carousel" src={Alex01} />
                             </div>
@@ -48,9 +50,9 @@ class Profile extends Component{
                             </div>
                         </Carousel>
                         </div>
+                        </Bounce>
                     </section>
                 </section>
-            </Zoom>
         </section>
 
         </>

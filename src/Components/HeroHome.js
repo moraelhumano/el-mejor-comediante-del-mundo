@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+
+
 import Zoom from 'react-reveal/Zoom';
 import  Bounce  from 'react-reveal/Zoom';
 
@@ -26,17 +35,17 @@ class HeroHome extends Component{
             <Bounce>
             <div className="sm:text-center ">
               <div className="text-center lg:text-left">
-              <p className="text-4xl tracking-tight font-extrabold text-white sm:text-3xl md:text-3xl text-shadow-lg">NUEVAS FECHAS</p>
+              <p className="text-4xl tracking-tight font-extrabold text-white sm:text-3xl md:text-3xl text-shadow-lg">ALEX FERNÁNDEZ:</p>
                 <p className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl text-shadow-lg">EL MEJOR COMEDIANTE DEL MUNDO</p>
               </div>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-white text-base font-medium rounded-md text-white bg-blue hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                  >
+                <Link to="/bio" className="w-full flex items-center justify-center px-8 py-3 border border-white text-base font-medium rounded-md text-white bg-blue hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                  <p>
                     Encuentra tus boletos
-                  </a>
+                  </p>
+                  </ Link>
+
                 </div>
               </div>
             </div>

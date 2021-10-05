@@ -29,7 +29,7 @@ function App() {
             <NavBar />
               <Route   path="/" component={Home} exact />
               {/* <Route path="/alumni" component={Alumni}  /> */}
-              <Route path="/Bio" component={Bio}  />
+              <Route path="/bio" component={Bio}  />
             </div>
         </React.Fragment>
       </Switch>

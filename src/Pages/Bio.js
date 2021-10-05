@@ -10,10 +10,10 @@ class Bio extends Component{
     render() {
         return (
         <>
-        <section className="font-sans antialiased text-gray-900 leading-normal tracking-wider pb-6 bg-home-publico bg-estamal">
+        <section className="font-sans antialiased text-gray-900 leading-normal tracking-wider pb-6 bg-bio-publico">
           <div className="max-w-4xl flex items-center justify-center flex-col flex-wrap mx-auto lg:my-0 pb-10 md:pt-20 pt-0">
             <div id="profile" className="w-10/12 rounded-lg lg:rounded-l-lg  md:w-full shadow-2xl md:mt-20 mt-28 bg-white  mx-6 lg:mx-0">
-              <div className="pt-36 md:p-6 md:pt-20 text-center lg:text-left shadow-2xl md:shadow-none">
+              <div className="pt-20 md:p-6 md:pt-20 text-center lg:text-left shadow-2xl md:shadow-none">
                 <div className="text-center pb-6 md:pb-0">
                   <div className="block rounded-full shadow-xl  mx-auto -m-32 h-48 w-48 bg-cover bg-center" style={{ backgroundImage: `url(${AlexBG})`}}></div>
                     <div className="pt-32">
@@ -30,92 +30,92 @@ class Bio extends Component{
             </div>
 
             <div className="mt-6 px-2 md:px-0 w-full flex flex-col md:flex-row flex-flow md:justify-between justify-center items-center">
-              <a className="fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://all.checkout.tuboleta.com/selection/event/date?productId=10228374221197">
+              <a className="fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                   <p className="text-sm">29</p>
                   <p>SEP</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-base font-bold ml-2">MEDELLÍN / BLUE</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
-              <a className=" mt-2 md:mt-0  fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://all.checkout.tuboleta.com/selection/event/date?productId=10228374221198">
+              <a className=" mt-2 md:mt-0  fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                   <p className="text-sm">1</p>
                   <p>OCT</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-base font-bold ml-2">BÓGOTA / BOOM STAND UP BAR</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
             </div>
 
             <div className="mt-2 md:mt-6 px-2 md:px-0 w-full flex flex-col md:flex-row flex-flow justify-center items-center">
-              <a className="fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://all.checkout.tuboleta.com/selection/event/date?productId=10228374221198">
+              <a className="fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                   <p className="text-sm">2</p>
                   <p>OCT</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-base font-bold ml-2">BÓGOTA / BOOM STAND UP BAR</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
-              <a className=" mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://ventas.donboleton.com/eventperformances.asp?evt=2157">
+              <a className=" mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                 <p>16</p>
                   <p>OCT</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-base font-bold ml-2">CHIHUAHUA / TEATRO DE LA CIUDAD</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
             </div>
             <div className="mt-0 md:mt-6 px-2 md:px-0 w-full flex flex-col md:flex-row flex-flow justify-center items-center">
-              <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://all.checkout.tuboleta.com/selection/event/date?productId=10228374221198">
+              <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                   <p>30</p>
                   <p>OCT</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-sm font-bold ml-2">MONTERREY / AUDITORIO PABELLÓN M</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
-              <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://all.checkout.tuboleta.com/selection/event/date?productId=10228374221198">
+              <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                 <p>6</p>
                   <p className="text-sm">NOV</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-base font-bold ml-2">AGUASCLIENTES / AUDITORIO DIMO</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
           
 
             </div>
             <div className="mt-0 md:mt-6 px-2 md:px-0 w-full flex flex-col md:flex-row flex-flow justify-center items-center">
-            <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://all.checkout.tuboleta.com/selection/event/date?productId=10228374221198">
+            <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                 <p>18</p>
                 <p>NOV</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-sm font-bold ml-2">LEÓN / FORO PARUNO CENTRAL DE MÚSICA</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
-            <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://all.checkout.tuboleta.com/selection/event/date?productId=10228374221198">
+            <a className="mt-2 md:mt-0 fecha-card h-14 md:w-45 md:mr-2 w-11/12 shadow-2xl flex items-center px-2 pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
                 <div className="h-full w-20 flex flex-col text-center shadow-navbar justify-center text-white font-bold date">
                 <p>19</p>
                   <p>NOV</p>
                 </div>
                 <div className="locacion">
-                  <p className="flex text-base font-bold ml-2">SAN MIGUEL / TEATRO ÁNGELA PERALTA</p>
+                  <p className="flex text-base font-bold ml-2">FORO DE PRUEBA / CDMX</p>
                 </div>
               </a>
 
             </div>
-            <div className="mt-0 md:mt-6 w-full px-2  md:px-0 flex justify-left items-left">
+            {/* <div className="mt-0 md:mt-6 w-full px-2  md:px-0 flex justify-left items-left">
               
-              <a className="h-14 mt-2 w-49 md:mt-0  md:mr-2 w-full w-49 shadow-2xl flex items-center pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://arema.mx/evento/7215">
+              <a className="h-14 mt-2 w-49 md:mt-0  md:mr-2 w-full w-49 shadow-2xl flex items-center pl-0 pr-0  bg-white rounded-lg" target="_blank" href="https://www.elmejorcomediantedelmundo.com/">
               <div className="h-full date flex flex-col text-center shadow-navbar justify-center text-white font-bold date"    style={{  width: '15%'}} >
                   <p>26</p>
                     <p>NOV</p>
@@ -124,7 +124,7 @@ class Bio extends Component{
                     <p className="flex text-base font-bold ml-2">TOLUCA / TEATRO DEL IMSS</p>
                   </div>
                 </a>
-            </div>
+            </div> */}
             
           </div>
         </section>
