@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FanArtNote from './FanArtNote';
 
 
 
@@ -36,10 +37,11 @@ class Footer extends Component{
                 </div>
                 <p className="text-base text-center text-gray-400 mt-2">
                     © 2021 Alex Fdz, Inc. All rights reserved. <br/>
-                    Website created By Mora Hubert
+                    <a href="https://www.instagram.com/ladelaintuicion" target="_blank">Website created By Mora Hubert</a>
                 </p>
             </div>
         </section>
+        <FanArtNote />
         </>
 
         )
