@@ -40,7 +40,7 @@ class HeroHome extends Component{
               </div>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                <a href="https://www.elmejorcomediantedelmundo.com/bio" className="w-full flex items-center justify-center px-8 py-3 border border-white text-base font-medium rounded-md text-white bg-blue  md:py-4 md:text-lg md:px-10">
+                <a href="https://www.elmejorcomediantedelmundo.com/calendario" className="w-full flex items-center justify-center px-8 py-3 border border-white text-base font-medium rounded-md text-white bg-blue  md:py-4 md:text-lg md:px-10">
                   <p>
                     Encuentra tus boletos
                   </p>
