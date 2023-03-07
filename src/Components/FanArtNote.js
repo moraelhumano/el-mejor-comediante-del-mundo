@@ -11,7 +11,7 @@ class FanArtNote extends Component{
         return (
         <> 
         <a href="https://reycamiseta.com/?page_id=3751" target="_blank">
-        <div className="w-screen bg-yellow px-2 py-4 flex items-center justify-around flex-col md:flex-row">
+        <div className="w-auto bg-yellow px-2 py-4 flex items-center justify-around flex-col md:flex-row">
             <div>
                 <p className="merch-banner-subtext text-base pt-2 md:pt-0 ">ESTE ES UN FANART, NO ES EL SITIO OFICIAL DE</p>
                 <p className="merch-banner-text text-lg md:text-4xl ">
